@@ -14,5 +14,5 @@ app.listen(3000, () => {
 });
 
 app.get("/test", (req, res) => {
-  res.json({ message: "테스트 성공!", time: new Date() });
+  res.json({ message: "테스트 성공! 을 테스트함", time: new Date() });
 });
